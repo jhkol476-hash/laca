@@ -1,0 +1,50 @@
+═══════════════════════════════════════════════════════════════
+  🚀 COME VEDERE IL SITO ONLINE - ISTRUZIONI RAPIDE
+═══════════════════════════════════════════════════════════════
+
+METODO PIÙ VELOCE (2 minuti, senza registrazione):
+───────────────────────────────────────────────────
+
+1. Apri il browser e vai su:
+   👉 https://app.netlify.com/drop
+
+2. Trascina QUESTA intera cartella "3d-viewer" nella pagina
+
+3. Aspetta 10-20 secondi...
+
+4. ✅ OTTIENI IL TUO LINK!
+   Tipo: https://random-name-123.netlify.app
+
+5. Clicca sul link e vedi il tuo sito 3D!
+
+6. Condividi il link con chi vuoi!
+
+
+═══════════════════════════════════════════════════════════════
+
+ALTRI METODI ALTERNATIVI:
+─────────────────────────
+
+• Vercel: https://vercel.com
+  (Trascina la cartella, registrati gratis, ottieni link)
+
+• GitHub Pages: 
+  - Crea account su github.com
+  - Crea nuovo repository
+  - Carica tutti i file
+  - Attiva GitHub Pages nelle impostazioni
+
+
+═══════════════════════════════════════════════════════════════
+
+COSA PUOI FARE NEL SITO:
+────────────────────────
+
+✅ Visualizzare oggetti 3D (Cubo, Sfera, Toro, Teapot)
+✅ Visualizzare il modello Mercedes Bus 🚌
+✅ Ruotare, zoomare e navigare con il mouse
+✅ Funziona su computer, tablet e smartphone
+
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizzatore 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Visualizzatore 3D</h1>
+            <p>Esplora oggetti in tre dimensioni</p>
+        </header>
+        
+        <div class="controls">
+            <button id="cubeBtn" class="btn active">Cubo</button>
+            <button id="sphereBtn" class="btn">Sfera</button>
+            <button id="torusBtn" class="btn">Toro</button>
+            <button id="teapotBtn" class="btn">Teapot</button>
+            <button id="busBtn" class="btn">🚌 Mercedes Bus</button>
+            <button id="resetBtn" class="btn">Reset Camera</button>
+        </div>
+        
+        <div id="canvas-container">
+            <div id="loading-indicator" class="loading-indicator" style="display: none;">
+                <div class="spinner"></div>
+                <p>Caricamento modello...</p>
+            </div>
+            <div id="error-message" class="error-message" style="display: none;">
+                <p>❌ Errore nel caricamento del modello</p>
+                <p class="error-details"></p>
+                <p class="error-hint">💡 Suggerimento: Apri il sito tramite un server locale (es. Live Server) per evitare problemi CORS</p>
+            </div>
+        </div>
+        
+        <div class="info-panel">
+            <h3>Controlli</h3>
+            <ul>
+                <li><strong>Mouse sinistro:</strong> Ruota la scena</li>
+                <li><strong>Mouse destro:</strong> Trascina per spostare</li>
+                <li><strong>Rotella:</strong> Zoom avanti/indietro</li>
+                <li><strong>Touch:</strong> Usa i gesti per navigare</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
